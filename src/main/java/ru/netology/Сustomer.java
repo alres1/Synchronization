@@ -3,7 +3,7 @@ package ru.netology;
 class Сustomer implements Runnable{
 
     private int maxСustomers = 5;
-    private int customerTime = 5;
+    private int customerTime = 1000;
     Store store;
 
     Сustomer(Store store){
